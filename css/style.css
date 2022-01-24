@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h1.clock {
+    display: flex;
+    justify-content: center;
+    font-family: 'Pushster', cursive;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: black;;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+
+.time {
+    font-family: 'Pushster', cursive;
+    color: whitesmoke;
+}
+
+button{
+    max-height: 50px;
+    width: 70px;
+    background-color: whitesmoke;
+    content: black;
+}
+
+button:hover {
+    background-color: turquoise;
+}
+
+.butttt {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 28px;
+    width: 217px;
+    align-items: center;
+}
+
+.butttt a {
+    color: black;
+    width: 100px;
+    height: 23px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+.butttt a:hover {
+    background-color: black;
+    color: white;
+}
